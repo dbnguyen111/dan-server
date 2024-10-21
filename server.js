@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     const currentTime = new Date().toISOString();
-    res.send(`Your Name - WEB322 ${currentTime}`);
+    res.send(`Dan Nguyen - WEB322 ${currentTime}`);
 });
 
 app.listen(port, () => {
